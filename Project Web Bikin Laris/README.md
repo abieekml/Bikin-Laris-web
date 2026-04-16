@@ -19,6 +19,7 @@ Proyek web front-end ini dibangun menggunakan teknologi dasar yang ringan dan ce
 
 Berikut adalah arsitektur direktori dari proyek ini:
 
+```text
 project web bikin laris/
 ├── index.html              # Halaman utama website
 ├── README.md               # Dokumentasi proyek
