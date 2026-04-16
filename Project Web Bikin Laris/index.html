@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BikinLaris Digital</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="hero">
+    <div class="hero-dot"></div>
+
+    <div class="avatar-wrap">
+      <div class="avatar" id="avatarDisplay">
+        <img src="assets/images/logo.jpg" alt="BikinLaris Logo">
+      </div>
+    </div>
+
+    <div class="profile-name" id="profileName">
+      bikinlaris
+    </div>
+    <div class="profile-bio" id="profileBio">
+      Jasa Digital Marketing &amp; Google Business Profesional
+    </div>
+  </div>
+
+
+  <div class="socials">
+
+    <a class="social-btn" href="#" onclick="openSocial('ig');return false;" style="color:#e1306c;">
+      <div class="tooltip">Instagram</div>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="2" width="20" height="20" rx="5"/>
+        <circle cx="12" cy="12" r="4"/>
+        <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+      </svg>
+    </a>
+
+    <a class="social-btn" href="#" onclick="openSocial('wa');return false;" style="color:#25d366;">
+      <div class="tooltip">WhatsApp</div>
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.556 4.118 1.524 5.847L0 24l6.303-1.504A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.65-.507-5.166-1.387l-.371-.219-3.842.917.968-3.738-.241-.383A9.948 9.948 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+      </svg>
+    </a>
+
+    <a class="social-btn" href="#" onclick="openSocial('tiktok');return false;" style="color:#111;">
+      <div class="tooltip">TikTok</div>
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.31 6.31 0 00-.79-.05A6.34 6.34 0 003.15 15.3 6.34 6.34 0 009.49 21.6a6.34 6.34 0 006.34-6.34V9.01a8.16 8.16 0 004.77 1.52V7.1a4.85 4.85 0 01-1.01-.41z"/>
+      </svg>
+    </a>
+
+    <a class="social-btn" href="#" onclick="openSocial('gmap');return false;" style="color:#4285F4;">
+      <div class="tooltip">Google Maps</div>
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+      </svg>
+    </a>
+
+  </div>
+
+  <div class="links-section">
+    <div class="section-label">📌 Tautan Utama</div>
+
+    <a class="link-card" href="https://forms.gle/o14WWeHmtNGAG3c36" target="_blank">
+      <div class="link-icon" style="background:#e0f5f5;">📋</div>
+      <div class="link-text">
+        <div class="link-title">Form Pendaftaran</div>
+        <div class="link-desc">Daftar layanan kami di sini</div>
+      </div>
+      <span class="link-arrow">›</span>
+    </a>
+
+    <a class="link-card" href="#" onclick="openSocial('ig');return false;">
+      <div class="link-icon" style="background:#fde8f0;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#e1306c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="0.5" fill="#e1306c"/>
+        </svg>
+      </div>
+      <div class="link-text">
+        <div class="link-title">Instagram</div>
+        <div class="link-desc" id="igDesc">@bikinlaris.digital</div>
+      </div>
+      <span class="link-arrow">›</span>
+    </a>
+
+    <a class="link-card" href="#" onclick="openSocial('tiktok');return false;">
+      <div class="link-icon" style="background:#f5f5f5;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="#111">
+          <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.31 6.31 0 00-.79-.05A6.34 6.34 0 003.15 15.3 6.34 6.34 0 009.49 21.6a6.34 6.34 0 006.34-6.34V9.01a8.16 8.16 0 004.77 1.52V7.1a4.85 4.85 0 01-1.01-.41z"/>
+        </svg>
+      </div>
+      <div class="link-text">
+        <div class="link-title">TikTok</div>
+        <div class="link-desc" id="ttDesc">@bikinlaris.digital</div>
+      </div>
+      <span class="link-arrow">›</span>
+    </a>
+
+    <a class="link-card" href="#" onclick="openSocial('wa');return false;">
+      <div class="link-icon" style="background:#e6f9ee;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="#25d366">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+          <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.556 4.118 1.524 5.847L0 24l6.303-1.504A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.65-.507-5.166-1.387l-.371-.219-3.842.917.968-3.738-.241-.383A9.948 9.948 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+        </svg>
+      </div>
+      <div class="link-text">
+        <div class="link-title">WhatsApp</div>
+        <div class="link-desc" id="waDesc">Chat &amp; Order Sekarang</div>
+      </div>
+      <span class="link-arrow">›</span>
+    </a>
+  </div>
+
+  <div class="services-section">
+    <div class="section-label">⚡ Jasa Kami</div>
+    <div class="services-grid">
+
+      <div class="service-card" onclick="openSocial('wa')" style="border-top:3px solid #4285F4;">
+        <span class="service-badge" style="background:#e8f0fe;color:#1a56c4;">📍 Maps</span>
+        <span class="service-icon">🗺️</span>
+        <div class="service-title">Pembuatan Lokasi Google Maps</div>
+        <div class="service-desc">Daftarkan bisnis Anda agar mudah ditemukan pelanggan</div>
+      </div>
+
+      <div class="service-card" onclick="openSocial('wa')" style="border-top:3px solid #0d7377;">
+        <span class="service-badge" style="background:#e0f5f5;color:#084d51;">✨ Optimasi</span>
+        <span class="service-icon">📊</span>
+        <div class="service-title">Optimasi Google Business Profile</div>
+        <div class="service-desc">Profil bisnis tampil profesional &amp; terpercaya</div>
+      </div>
+
+      <div class="service-card" onclick="openSocial('wa')" style="border-top:3px solid #e85d4a;">
+        <span class="service-badge" style="background:#fde8e5;color:#b03a2a;">📸 Konten</span>
+        <span class="service-icon">📸</span>
+        <div class="service-title">Foto &amp; Upload Konten UMKM</div>
+        <div class="service-desc">Foto produk &amp; konten berkualitas tinggi</div>
+      </div>
+
+      <div class="service-card" onclick="openSocial('wa')" style="border-top:3px solid #f5a623;">
+        <span class="service-badge" style="background:#fff8e6;color:#a06a0a;">🔧 Perbaikan</span>
+        <span class="service-icon">🛠️</span>
+        <div class="service-title">Maintenance Profil Google UMKM</div>
+        <div class="service-desc">Update &amp; kelola profil Google Bisnis secara rutin</div>
+      </div>
+
+    </div>
+  </div>
+
+ 
+  <div class="footer">
+    <p>© 2026 BikinLaris Digital · Solusi Digital UMKM Indonesia</p>
+  </div>
+
+</div>
+
+
+<a class="whatsapp-float" id="waFloat"
+   href="https://api.whatsapp.com/send?phone=6281919573190&text=Haloo%20Admin%20Saya%20Mau%20Order%20Jasa%20Digitalisasi%20UMKM"
+   target="_blank" title="Chat WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.556 4.118 1.524 5.847L0 24l6.303-1.504A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.65-.507-5.166-1.387l-.371-.219-3.842.917.968-3.738-.241-.383A9.948 9.948 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+  </svg>
+</a>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
